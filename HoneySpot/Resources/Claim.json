@@ -1,0 +1,297 @@
+{
+    "records": [{
+        "id": 133,
+        "createdat": "2021-07-19",
+        "claimedby": 6905,
+        "spotid": 7978,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJedYP7iuU3YkRHPWYyCwJls8",
+        "comment": "No comments",
+        "ispending": false,
+        "spotname": "Ca’Mea",
+        "spotlogo": "",
+        "spotemail": "",
+        "spotcategories": {
+            "stringValues": ["10", "7", "9", "33", "1", "30"]
+        },
+        "spotdescription": "",
+        "spotoperationhours": {
+            "stringValues": ["open|09:00|17:00", "open|09:00|17:00", "open|09:00|17:00", "open|09:00|17:00", "open|09:00|17:00", "close|09:00|17:00", "close|09:00|17:00"]
+        },
+        "spototherlocations": {
+            "stringValues": ["Str|Upo||", "Str|Upo||"]
+        },
+        "spotwebsite": "",
+        "spotowners": "",
+        "spotpictureurl": "https://honeyspot-business-images.s3.us-east-2.amazonaws.com/1094FA1B-C80F-46A5-B61D-7FCF6B1DF607.jpg",
+        "spotaddress": "214 Warren St, Hudson, NY 12534, USA",
+        "spotlatitude": "42.25435089999999",
+        "spotlongtitude": "-73.7927103",
+        "spotphonenumber": "+1 518-822-0005",
+        "spotmenupic": {
+            "stringValues": []
+        },
+        "spotfoodpic": {
+            "stringValues": []
+        },
+        "spotcustomerpic": {
+            "stringValues": []
+        },
+        "spotdelivery": {
+            "stringValues": ["dine-in", "take-out", "doordash", "uber-eats", "grubhub", "postmates"]
+        }
+    }, {
+        "id": 137,
+        "createdat": "2021-08-20",
+        "claimedby": 6905,
+        "spotid": 8034,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJJ7fk6QHkjYAREcpm8HYGO4k",
+        "comment": "Want to connect",
+        "ispending": false,
+        "spotname": "the C restaurant + bar",
+        "spotlogo": "",
+        "spotemail": "",
+        "spotcategories": {
+            "stringValues": []
+        },
+        "spotdescription": "",
+        "spotoperationhours": {
+            "stringValues": []
+        },
+        "spototherlocations": {
+            "stringValues": []
+        },
+        "spotwebsite": "",
+        "spotowners": "",
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8plifHW3EYYEkEmXgWBEKrr8d_q2v6cUr-OAYM22fMBGPyQNPLJDCbPKWKVNc_P5iGCFZh6uMDhJS5_Y0UrKcUqZeqAkzzGC7g=s1600-w500",
+        "spotaddress": "750 Cannery Row, Monterey, CA 93940, USA",
+        "spotlatitude": "36.6169243",
+        "spotlongtitude": "-121.900884",
+        "spotphonenumber": "+1 831-375-4800",
+        "spotmenupic": {
+            "stringValues": []
+        },
+        "spotfoodpic": {
+            "stringValues": []
+        },
+        "spotcustomerpic": {
+            "stringValues": []
+        },
+        "spotdelivery": {
+            "stringValues": ["catering", "uber-eats", "grubhub", "postmates"]
+        }
+    }, {
+        "id": 138,
+        "createdat": "2021-08-23",
+        "claimedby": 6905,
+        "spotid": 8036,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJD-fScJphUjoRpJqVWYKgf9U",
+        "comment": "Trt",
+        "ispending": false,
+        "spotname": "The bestie family restaurant",
+        "spotlogo": "",
+        "spotemail": "",
+        "spotcategories": {
+            "stringValues": ["5", "6", "10"]
+        },
+        "spotdescription": "",
+        "spotoperationhours": {
+            "stringValues": []
+        },
+        "spototherlocations": {
+            "stringValues": []
+        },
+        "spotwebsite": "",
+        "spotowners": "",
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8ruRoxHvCqWcFi_m17bkZZgX8OYTpdya2k2UG1gb0VN_p3yu6nmZM0XUDuI8SwJ5gCMZgR5URqnnw3ZgGaRqHYZORleaJpI74A=s1600-w500",
+        "spotaddress": "Chettiyar Agaram Rd, Devi Parasakthi Nagar, Porur, Chennai, Tamil Nadu 600116, India",
+        "spotlatitude": "13.039108",
+        "spotlongtitude": "80.1465381",
+        "spotphonenumber": "+91 99400 48818",
+        "spotmenupic": {
+            "stringValues": []
+        },
+        "spotfoodpic": {
+            "stringValues": []
+        },
+        "spotcustomerpic": {
+            "stringValues": []
+        },
+        "spotdelivery": {
+            "stringValues": ["dine-in", "take-out", "doordash"]
+        }
+    }, {
+        "id": 139,
+        "createdat": "2021-08-23",
+        "claimedby": 6905,
+        "spotid": 8037,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJmYGQFQlmUjoRwiur8oBt9GE",
+        "comment": "Test",
+        "ispending": false,
+        "spotname": "Board Walk The Restaurant",
+        "spotlogo": "",
+        "spotemail": "",
+        "spotcategories": {
+            "stringValues": []
+        },
+        "spotdescription": "New",
+        "spotoperationhours": {
+            "stringValues": []
+        },
+        "spototherlocations": {
+            "stringValues": ["|||", "|||"]
+        },
+        "spotwebsite": "",
+        "spotowners": "",
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8pUPhzsX_lEFyZ6BeswPKoXTUtpePrCQSD-xdCjoqfLpE4FCHEJ_5PNPHGnLzn3dLs3_H4Xb4eaNujSAdTa9viP6cziONvSyaY=s1600-w500",
+        "spotaddress": "Gandhi Irwin Bridge Rd, Ansari Estate, Egmore, Chennai, Tamil Nadu 600008, India",
+        "spotlatitude": "13.0768475",
+        "spotlongtitude": "80.26500349999999",
+        "spotphonenumber": "+91 98410 47006",
+        "spotmenupic": {
+            "stringValues": []
+        },
+        "spotfoodpic": {
+            "stringValues": []
+        },
+        "spotcustomerpic": {
+            "stringValues": []
+        },
+        "spotdelivery": {
+            "stringValues": ["delivery", "catering", "grubhub", "doordash"]
+        }
+    }, {
+        "id": 142,
+        "createdat": "2021-08-27",
+        "claimedby": 6905,
+        "spotid": 8039,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJzafuPoF9hYARtHK1H5ZlrMc",
+        "comment": "Test",
+        "ispending": false,
+        "spotname": "Nom Nom Bánh Mì",
+        "spotlogo": null,
+        "spotemail": null,
+        "spotcategories": null,
+        "spotdescription": null,
+        "spotoperationhours": null,
+        "spototherlocations": null,
+        "spotwebsite": null,
+        "spotowners": null,
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8qLF-qdI55_XE2FNdoFx-N1yFbKkOwKhABWf80i4x2Qm6PfLUUQp5de0vDgbdiA6jHFiTtpwmVWsrk5KirQ9oZeNLo9BFsD6Po=s1600-w500",
+        "spotaddress": "2491 Telegraph Ave, Berkeley, CA 94704, USA",
+        "spotlatitude": "37.8653944",
+        "spotlongtitude": "-122.2583718",
+        "spotphonenumber": "+1 510-984-0957",
+        "spotmenupic": null,
+        "spotfoodpic": null,
+        "spotcustomerpic": null,
+        "spotdelivery": null
+    }, {
+        "id": 166,
+        "createdat": "2021-09-09",
+        "claimedby": 6905,
+        "spotid": 8053,
+        "isverified": true,
+        "isdenied": false,
+        "googleplaceid": "ChIJtQsolkZmUjoRTXmXYtXKaHo",
+        "comment": "Test",
+        "ispending": false,
+        "spotname": "Hotel Virudhunagar Chettinad",
+        "spotlogo": null,
+        "spotemail": null,
+        "spotcategories": null,
+        "spotdescription": null,
+        "spotoperationhours": null,
+        "spototherlocations": null,
+        "spotwebsite": null,
+        "spotowners": null,
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8ovBJojJzor1A1zKkewXtqKwowJH4qFRs6urDpSjwWTCawJFRHAFF39OWxOrpMpRlKXipsDaoZocg61mk4Cr9gKLkNNFEED58c=s1600-w500",
+        "spotaddress": "77, G.N CHETTY STREET, T. NAGAR, PANAGAL PARK, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017, India",
+        "spotlatitude": "13.0425176",
+        "spotlongtitude": "80.2351924",
+        "spotphonenumber": "+91 44 4212 2769",
+        "spotmenupic": null,
+        "spotfoodpic": null,
+        "spotcustomerpic": null,
+        "spotdelivery": null
+    }, {
+        "id": 143,
+        "createdat": "2021-08-27",
+        "claimedby": 6905,
+        "spotid": 8040,
+        "isverified": true,
+        "isdenied": true,
+        "googleplaceid": "ChIJ-eptB1do14gRMPBEc8cBMs4",
+        "comment": "Test",
+        "ispending": false,
+        "spotname": "The Fish House",
+        "spotlogo": "",
+        "spotemail": "",
+        "spotcategories": {
+            "stringValues": []
+        },
+        "spotdescription": "",
+        "spotoperationhours": {
+            "stringValues": ["open|19:07|17:00", "open|09:00|17:00", "open|09:00|17:00", "open|09:00|17:00", "open|09:00|17:00", "close|09:00|17:00", "close|09:00|17:00"]
+        },
+        "spototherlocations": {
+            "stringValues": []
+        },
+        "spotwebsite": "",
+        "spotowners": "",
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8rwC7R1dWQ868p3s-SHE-oow6zlER218qRFoh1wJlWoBYtjHdBo1j46Strjl_d6ED8GlQDB9d9zpDi1ZrphL159fTSEkg_IE4s=s1600-w500",
+        "spotaddress": "102401 Overseas Hwy, Key Largo, FL 33037, USA",
+        "spotlatitude": "25.1242748",
+        "spotlongtitude": "-80.4129569",
+        "spotphonenumber": "+1 305-451-4665",
+        "spotmenupic": {
+            "stringValues": []
+        },
+        "spotfoodpic": {
+            "stringValues": []
+        },
+        "spotcustomerpic": {
+            "stringValues": []
+        },
+        "spotdelivery": {
+            "stringValues": []
+        }
+    }, {
+        "id": 144,
+        "createdat": "2021-08-31",
+        "claimedby": 6905,
+        "spotid": 8045,
+        "isverified": true,
+        "isdenied": true,
+        "googleplaceid": "ChIJX-LjELq-woARV3-DLPyBwQA",
+        "comment": "Test",
+        "ispending": false,
+        "spotname": "Barton G. The Restaurant - Los Angeles",
+        "spotlogo": null,
+        "spotemail": null,
+        "spotcategories": null,
+        "spotdescription": null,
+        "spotoperationhours": null,
+        "spototherlocations": null,
+        "spotwebsite": null,
+        "spotowners": null,
+        "spotpictureurl": "https://lh3.googleusercontent.com/places/AAcXr8riknRIWDfvpO-Dcaz4u8jibjxP1O1PDyANBAWW7VRWO0D-2L1WND5Oqayl876Xw_41RJAxMKLyYCPnGmM_Bw8cPIHocdgsT5I=s1600-w500",
+        "spotaddress": "861 N La Cienega Blvd, Los Angeles, CA 90069, USA",
+        "spotlatitude": "34.0869583",
+        "spotlongtitude": "-118.3767244",
+        "spotphonenumber": "+1 310-388-1888",
+        "spotmenupic": null,
+        "spotfoodpic": null,
+        "spotcustomerpic": null,
+        "spotdelivery": null
+    }]
+}

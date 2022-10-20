@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentCircleButton" customModule="HoneySpot" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSegment" destination="GQM-Kp-hiY" id="7n7-Lk-YeP"/>
+                <outlet property="vwContainer" destination="iN0-l3-epB" id="rym-pK-rOU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQM-Kp-hiY">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" name="ORANGE"/>
+                    <state key="normal" image="IconProfileGrid"/>
+                    <connections>
+                        <action selector="onSegmentButtonTap:" destination="-1" eventType="touchUpInside" id="JVr-xQ-vFt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GQM-Kp-hiY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9f5-ym-lwh"/>
+                <constraint firstItem="GQM-Kp-hiY" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="KiL-rT-Vxi"/>
+                <constraint firstItem="GQM-Kp-hiY" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="cfj-RM-YQV"/>
+                <constraint firstItem="GQM-Kp-hiY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="wjL-rl-sZY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-115.2" y="-106.59670164917542"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IconProfileGrid" width="19" height="19"/>
+        <namedColor name="ORANGE">
+            <color red="0.97600001096725464" green="0.3880000114440918" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

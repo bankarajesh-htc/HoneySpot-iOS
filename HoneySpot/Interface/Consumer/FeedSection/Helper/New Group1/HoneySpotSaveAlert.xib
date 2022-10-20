@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HoneySpotSaveAlert" customModule="HoneySpot" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="CCW-HZ-jCO" id="Ewo-vN-t55"/>
+                <outlet property="backBlackView" destination="s4b-xO-syd" id="O2m-F9-qOc"/>
+                <outlet property="honeySpotSave" destination="GDk-cU-kg0" id="pUN-Mh-g4n"/>
+                <outlet property="parentView" destination="iN0-l3-epB" id="aJe-Gr-qkR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4b-xO-syd">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCW-HZ-jCO">
+                    <rect key="frame" x="54.5" y="233.5" width="305" height="439"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mu-VH-1DH">
+                            <rect key="frame" x="252" y="13" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="JYT-rk-Fdp"/>
+                                <constraint firstAttribute="height" constant="40" id="oGd-e9-siI"/>
+                            </constraints>
+                            <state key="normal" image="closeIcon"/>
+                            <connections>
+                                <action selector="closeTapped:" destination="-1" eventType="touchUpInside" id="wBE-9l-Tou"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="completeConfirmationImage" translatesAutoresizingMaskIntoConstraints="NO" id="aeL-Nl-O3J">
+                            <rect key="frame" x="38" y="73" width="209" height="178"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="209" id="EkB-ve-wR2"/>
+                                <constraint firstAttribute="height" constant="178" id="c9w-aQ-sGR"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-cU-kg0">
+                            <rect key="frame" x="152.5" y="282" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t forget to share with your friends." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sw-IE-Uyp">
+                            <rect key="frame" x="14" y="283" width="277" height="19.5"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                            <color key="textColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1k-qi-DRR">
+                            <rect key="frame" x="25" y="332" width="255" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="NeM-kC-77v"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="Share this HoneySpot">
+                                <color key="titleColor" name="ORANGE"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="ORANGE"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="22"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionTapped:" destination="-1" eventType="touchUpInside" id="585-N6-Ysl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POf-nl-UVK">
+                            <rect key="frame" x="83" y="387" width="139" height="32"/>
+                            <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="14"/>
+                            <state key="normal" title="No thanks. I’m done.">
+                                <color key="titleColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissTapped:" destination="-1" eventType="touchUpInside" id="5Kr-Dz-C9X"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="p1k-qi-DRR" firstAttribute="top" secondItem="6sw-IE-Uyp" secondAttribute="bottom" constant="29.5" id="17E-7S-8yc"/>
+                        <constraint firstItem="aeL-Nl-O3J" firstAttribute="leading" secondItem="CCW-HZ-jCO" secondAttribute="leading" constant="38" id="4kZ-0b-gvL"/>
+                        <constraint firstItem="p1k-qi-DRR" firstAttribute="leading" secondItem="CCW-HZ-jCO" secondAttribute="leading" constant="25" id="5JU-OF-wL4"/>
+                        <constraint firstItem="aeL-Nl-O3J" firstAttribute="top" secondItem="9mu-VH-1DH" secondAttribute="bottom" constant="20" id="Ifd-07-jHr"/>
+                        <constraint firstAttribute="trailing" secondItem="aeL-Nl-O3J" secondAttribute="trailing" constant="58" id="Jbu-23-7eS"/>
+                        <constraint firstItem="POf-nl-UVK" firstAttribute="centerX" secondItem="CCW-HZ-jCO" secondAttribute="centerX" id="LSy-PA-RQz"/>
+                        <constraint firstAttribute="trailing" secondItem="6sw-IE-Uyp" secondAttribute="trailing" constant="14" id="Lc4-10-lVY"/>
+                        <constraint firstAttribute="trailing" secondItem="9mu-VH-1DH" secondAttribute="trailing" constant="13" id="LiR-dX-IWq"/>
+                        <constraint firstItem="GDk-cU-kg0" firstAttribute="centerX" secondItem="CCW-HZ-jCO" secondAttribute="centerX" id="OdO-lf-gqp"/>
+                        <constraint firstItem="6sw-IE-Uyp" firstAttribute="leading" secondItem="CCW-HZ-jCO" secondAttribute="leading" constant="14" id="Opo-QF-c4h"/>
+                        <constraint firstItem="9mu-VH-1DH" firstAttribute="top" secondItem="CCW-HZ-jCO" secondAttribute="top" constant="13" id="b4v-iU-y6c"/>
+                        <constraint firstItem="6sw-IE-Uyp" firstAttribute="top" secondItem="GDk-cU-kg0" secondAttribute="bottom" constant="1" id="hzl-Ej-zVZ"/>
+                        <constraint firstItem="POf-nl-UVK" firstAttribute="top" secondItem="p1k-qi-DRR" secondAttribute="bottom" constant="11" id="ijh-BI-5wG"/>
+                        <constraint firstAttribute="bottom" secondItem="POf-nl-UVK" secondAttribute="bottom" constant="20" id="uNX-3P-bdw"/>
+                        <constraint firstAttribute="trailing" secondItem="p1k-qi-DRR" secondAttribute="trailing" constant="25" id="y42-Ct-aVz"/>
+                        <constraint firstItem="GDk-cU-kg0" firstAttribute="top" secondItem="aeL-Nl-O3J" secondAttribute="bottom" constant="31" id="zcM-tA-NPF"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="s4b-xO-syd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Gh-uw-fzo"/>
+                <constraint firstItem="CCW-HZ-jCO" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="HiH-ed-y33"/>
+                <constraint firstAttribute="bottom" secondItem="s4b-xO-syd" secondAttribute="bottom" id="KRG-RL-sdt"/>
+                <constraint firstItem="s4b-xO-syd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Wmd-i0-w41"/>
+                <constraint firstItem="CCW-HZ-jCO" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="gVo-0N-In3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="s4b-xO-syd" secondAttribute="trailing" id="y9H-m7-4L1"/>
+            </constraints>
+            <point key="canvasLocation" x="-223.18840579710147" y="55.580357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closeIcon" width="14" height="14"/>
+        <image name="completeConfirmationImage" width="213" height="178"/>
+        <namedColor name="ORANGE">
+            <color red="0.97600001096725464" green="0.3880000114440918" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

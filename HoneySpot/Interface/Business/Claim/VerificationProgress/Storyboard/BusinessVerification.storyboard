@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fd-Dg-5ES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Business Verification View Controller-->
+        <scene sceneID="Qyv-1h-NTx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="2fd-Dg-5ES" customClass="BusinessVerificationViewController" customModule="HoneySpot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VXK-77-KHT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honeyspotBusinessLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-sQ-2pY">
+                                <rect key="frame" x="142" y="56" width="130" height="39"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification In Progress" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWw-4o-9cg">
+                                <rect key="frame" x="9" y="225" width="396" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB5-Hk-WSn">
+                                <rect key="frame" x="44" y="575" width="326" height="45"/>
+                                <color key="backgroundColor" name="ORANGE"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="NrW-JX-bBn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Check My Verification"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkVerification:" destination="2fd-Dg-5ES" eventType="touchUpInside" id="Zhi-2Q-k4c"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verificationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="8AA-fi-uyI">
+                                <rect key="frame" x="180" y="329" width="54" height="54"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="businessLetsStart" translatesAutoresizingMaskIntoConstraints="NO" id="qx1-Wg-DB0">
+                                <rect key="frame" x="103.5" y="395" width="207" height="156"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qx1-Wg-DB0" secondAttribute="height" multiplier="125:94" id="VGa-sW-rW5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your ownership is currently being reviewed, please check back later." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D6-qv-8Ig">
+                                <rect key="frame" x="34" y="272" width="346" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3YD-36-UMw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8AA-fi-uyI" firstAttribute="centerX" secondItem="3YD-36-UMw" secondAttribute="centerX" id="8hl-Z0-c2l"/>
+                            <constraint firstItem="3YD-36-UMw" firstAttribute="trailing" secondItem="bB5-Hk-WSn" secondAttribute="trailing" constant="44" id="BX2-Uc-c7e"/>
+                            <constraint firstItem="qx1-Wg-DB0" firstAttribute="centerX" secondItem="3YD-36-UMw" secondAttribute="centerX" id="PXk-7w-UOL"/>
+                            <constraint firstItem="bB5-Hk-WSn" firstAttribute="top" secondItem="qx1-Wg-DB0" secondAttribute="bottom" constant="24" id="RBh-gi-vCq"/>
+                            <constraint firstItem="8AA-fi-uyI" firstAttribute="top" secondItem="0D6-qv-8Ig" secondAttribute="bottom" constant="24" id="Rkf-Y8-8LG"/>
+                            <constraint firstItem="3YD-36-UMw" firstAttribute="trailing" secondItem="LWw-4o-9cg" secondAttribute="trailing" constant="9" id="WpQ-WZ-MFh"/>
+                            <constraint firstItem="3YD-36-UMw" firstAttribute="trailing" secondItem="0D6-qv-8Ig" secondAttribute="trailing" constant="34" id="a5P-r3-iCu"/>
+                            <constraint firstItem="hcz-sQ-2pY" firstAttribute="top" secondItem="3YD-36-UMw" secondAttribute="top" constant="12" id="cWp-PI-euB"/>
+                            <constraint firstItem="hcz-sQ-2pY" firstAttribute="centerX" secondItem="3YD-36-UMw" secondAttribute="centerX" id="jMO-Qt-jll"/>
+                            <constraint firstItem="qx1-Wg-DB0" firstAttribute="top" secondItem="8AA-fi-uyI" secondAttribute="bottom" constant="12" id="k6B-xS-Hns"/>
+                            <constraint firstItem="bB5-Hk-WSn" firstAttribute="leading" secondItem="3YD-36-UMw" secondAttribute="leading" constant="44" id="oHW-cx-kzw"/>
+                            <constraint firstItem="qx1-Wg-DB0" firstAttribute="width" secondItem="VXK-77-KHT" secondAttribute="width" multiplier="0.5" id="pKj-dM-acb"/>
+                            <constraint firstItem="qx1-Wg-DB0" firstAttribute="centerY" secondItem="3YD-36-UMw" secondAttribute="centerY" constant="20" id="qjH-sQ-Nco"/>
+                            <constraint firstItem="0D6-qv-8Ig" firstAttribute="top" secondItem="LWw-4o-9cg" secondAttribute="bottom" constant="14" id="rYD-Ca-yEp"/>
+                            <constraint firstItem="0D6-qv-8Ig" firstAttribute="leading" secondItem="3YD-36-UMw" secondAttribute="leading" constant="34" id="tkG-Xj-NMC"/>
+                            <constraint firstItem="LWw-4o-9cg" firstAttribute="leading" secondItem="3YD-36-UMw" secondAttribute="leading" constant="9" id="zdW-vj-pNI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="Jr8-EQ-mg3" kind="show" identifier="businessMain" id="YeV-K5-ywV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z5X-zk-pZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="-121"/>
+        </scene>
+        <!--BusinessTabbar-->
+        <scene sceneID="kgP-KM-72s">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BusinessTabbar" id="Jr8-EQ-mg3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="k4j-9G-SyJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SkK-vi-4bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809" y="-117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="businessLetsStart" width="2000" height="1504"/>
+        <image name="honeyspotBusinessLogo" width="130" height="39"/>
+        <image name="verificationIcon" width="54" height="54"/>
+        <namedColor name="ORANGE">
+            <color red="0.97600001096725464" green="0.3880000114440918" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
